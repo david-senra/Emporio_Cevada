@@ -1,0 +1,252 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar,
+footer {
+    background-image: url("./images/beer-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #000;
+}
+
+.navbar-brand {
+    font-size: 2.5em;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title {
+    font-family: Sigmar, cursive;
+}
+
+.carousel-item {
+    height: 500px;
+    transition: transform 2s ease-in-out;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+    transition: opacity 0s 2s;
+}
+
+#carousel-img-1 {
+    background-image: url(/images/slides/slide-1.jpg);
+}
+
+#carousel-img-2 {
+    background-image: url(/images/slides/slide-2.jpg);
+}
+
+#carousel-img-3 {
+    background-image: url(/images/slides/slide-3.jpg);
+}
+
+#carousel-img-4 {
+    background-image: url(/images/slides/slide-4.jpg);
+}
+
+#sobre-o-restaurante,
+#cardapio {
+    background-color: #fff984;
+}
+
+#cursos,
+#contato {
+    background-color: #fbd681;
+}
+
+.btn-primary {
+    background-color: rgb(255, 140, 0);
+    border-color:rgb(255, 140, 0);
+}
+
+.btn-primary:hover {
+    background-color: rgb(211, 117, 2);
+    border-color:#000
+}
+
+.text-colored {
+    color: #e38101;
+}
+
+.nav-cardapio .nav-link.active {
+    background-color: #e15f41;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #e15f41;
+}
+
+.social-links li {
+    font-size: 20px;
+    list-style-type: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.social-colored {
+    color: blue;
+}
+
+.social-links li:hover {
+    font-size: 25px;
+    transition-duration: 200ms;
+}
+
+textarea {
+    resize: none;
+}
+
+.error {
+    padding-top: 3px;
+    color: red;
+    font-size: 0.75em;
+}
+
+.error-parent {
+    border: 1px solid red;
+}
+
+.text-contact {
+    color: #db4343;
+}
+
+.botao {
+    background-color: #fbd681;
+    border: none;
+    width: fit-content;
+}
+
+.card {
+    background-color: #f4ff5f;
+}
+
+#telefonediv {
+    text-align: center;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+#nomediv {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#maildiv {
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#enviar {
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+@media (max-width: 767px) {
+    header .container h1 {
+        width: max-content;
+    }
+
+    .carousel-item img {
+        height: 280px;
+    }
+
+    #mestrecervejeiro {
+        margin-top: 50px;
+    }
+
+    aside {
+        justify-content: center;
+    }
+
+    .nav-pills button {
+        margin-right: 120px;
+        margin-left: 120px;
+    }
+
+    .elemento-sobre {
+        margin-bottom: 0;
+    }
+
+    .produtos-listados {
+        margin-top: 10px;
+    }
+
+    .produto {
+        margin-top: 30px;
+        width: 80%;
+    }
+
+    .tab-pane .row {
+        justify-content: center;
+    }
+
+    #telefonediv {
+        text-align: center;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+    #nomediv {
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    #maildiv {
+        text-align: center;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+    #enviar {
+        text-align: center;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+
+    header .container h1 {
+        width: max-content;
+    }
+
+    .elemento-sobre {
+        margin-bottom: 0;
+    }
+
+    .carousel-item img {
+        height: 180px;
+    }
+
+    .container-contato {
+        margin-right: 0;
+    }
+}
